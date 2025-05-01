@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+}
+.fullSpace {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fullSpace h3 {
+  color: #e6ffc8;
+  font-family: fantasy;
+  font-size: 72px;
+  font-weight: 100;
+  text-align: center;
+}

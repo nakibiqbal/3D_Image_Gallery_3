@@ -1,0 +1,144 @@
+.parentImgDiv {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  will-change: transform;
+  top: 0;
+  transform-style: preserve-3d;
+  perspective: 200px;
+  perspective-origin: center;
+}
+.childImgDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  will-change: transform;
+  transform-style: preserve-3d;
+}
+.imagesSize {
+  width: 35vw;
+  height: 35vh;
+  position: absolute;
+  perspective-origin: center;
+  will-change: transform;
+  transform-style: preserve-3d;
+}
+.imageWrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.imagesSize.class1 {
+  top: 0;
+  left: 0;
+}
+.imagesSize.class2 {
+  top: 0;
+  right: 0;
+}
+
+.imagesSize.class3 {
+  bottom: 0;
+  left: 0;
+}
+
+.imagesSize.class4 {
+  right: 15vw;
+  bottom: 20vh;
+}
+
+.imagesSize.class5 {
+  left: 10vw;
+  top: 25vh;
+}
+.imagesSize.class6 {
+  bottom: 30vh;
+  right: 10vw;
+}
+.imagesSize.class7 {
+  left: 20vw;
+  top: 45vh;
+}
+.imagesSize.class8 {
+  bottom: 0vh;
+  right: 0;
+}
+.imagesSize.class9 {
+  left: 27vw;
+  top: 5vh;
+}
+
+.imagesSize.class10 {
+  bottom: 10vh;
+  right: 25vw;
+}
+.imagesSize.class11 {
+  top: 30vh;
+  right: 0vw;
+}
+.imagesSize.class12 {
+  left: 25vw;
+  bottom: 5vh;
+}
+.imagesSize.class13 {
+  right: 10vw;
+  top: 8vh;
+}
+.imagesSize.class14 {
+  top: 15vh;
+  left: 25vw;
+}
+.imagesSize.class15 {
+  right: 18vw;
+  top: 10vh;
+}
+.imagesSize.class16 {
+  top: 38vh;
+  left: 5vw;
+}
+.imagesSize.class17 {
+  right: 15vw;
+  bottom: 0vh;
+}
+.imagesSize.class18 {
+  top: 5vh;
+  left: 17vw;
+}
+.imagesSize.class19 {
+  bottom: 28vh;
+  right: 14vw;
+}
+.imagesSize.class20 {
+  bottom: 0;
+  left: 14vw;
+}
+.imagesSize.class21 {
+  right: 14vw;
+  top: 2vh;
+}
+.imagesSize.class22 {
+  top: 10vh;
+  left: 7vw;
+}
+.imagesSize.class23 {
+  left: 40vw;
+  top: 0;
+}
+.imagesSize.class24 {
+  left: 0;
+  top: 33vh;
+}
+.imagesSize.class25 {
+  bottom: 10vh;
+  right: 30vw;
+}
+@media (max-width: 500px) {
+  .imagesSize {
+    width: 35vw;
+  }
+}
