@@ -54,7 +54,7 @@ const ScrollFunction = ({ index, src, className, parentRef }) => {
                     scrollTrigger: {
                         trigger: childRef.current,
                         start: `${index * (isSmallScreen ? 80 : 70)}% 50%`,
-                        end: `${index * (isSmallScreen ? 80 : 70)}% -100%`,
+                        end: `${index * (isSmallScreen ? 80 : 70)}% -110%`,
                         scrub: true,
                     },
                 }
