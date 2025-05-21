@@ -32,9 +32,7 @@ function App() {
 
       <Image_Slider />
 
-      <div className="fullSpace">
-        <SourceCode />
-      </div>
+      <div className="fullSpace" />
 
     </>
   )
