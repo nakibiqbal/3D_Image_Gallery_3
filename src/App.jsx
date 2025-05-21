@@ -2,7 +2,6 @@ import { useEffect } from 'react'
 import Image_Slider from './3D_Image_Gallery_3/Image_Slider'
 import Lenis from '@studio-freight/lenis'
 import './App.css'
-import SourceCode from './SourceCode_Button/SourceCode'
 
 function App() {
 
